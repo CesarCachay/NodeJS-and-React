@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const App = () => {
+const HackNews = () => {
   //State
   const [loading, setLoading] = useState(false);
   const [news, setNews] = useState([]);
@@ -51,4 +51,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HackNews;

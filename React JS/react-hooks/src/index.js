@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./HackNews";
+import HackNews from "./HackNews";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<HackNews />, document.getElementById("root"));
