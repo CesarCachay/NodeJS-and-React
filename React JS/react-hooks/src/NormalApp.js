@@ -8,6 +8,12 @@ class App extends Component {
       count: this.state.count + 1
     });
   };
+  componentDidMount() {
+    document.title = `Clicked ${this.state.count} times`;
+  }
+  componentDidUpdate() {
+    document.title = `Clicked ${this.state.count} times`;
+  }
   render() {
     return (
       <div>
